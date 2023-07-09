@@ -1,11 +1,11 @@
 import random
 
-kullaniciAdlari = ["super","cool","handsome","crazy","prime","strongest","clear"]
+usernames = ["super","cool","handsome","crazy","prime","strongest","clear"]
 
 def KullaniciOlustur():
-    kelime1 = kullaniciAdlari[random.randint(0, len(kullaniciAdlari)-1)]
-    kelime2 = kullaniciAdlari[random.randint(0, len(kullaniciAdlari)-1)]
-    print("\n" + kelime1 + " " + kelime2 + "\n")
+    word1 = usernames[random.randint(0, len(usernames)-1)]
+    word2 = usernames[random.randint(0, len(usernames)-1)]
+    print("\n" + word1 + " " + word2 + "\n")
 
 
 while(True):
